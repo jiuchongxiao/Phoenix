@@ -19,12 +19,12 @@
 <configuration>
 	<property>
 		<name>fs.defaultFS</name>
-		<value>hdfs://ngpdfsservice</value>
+		<value>hdfs://XXX</value>
 	</property>
 	
 	<property>
 		<name>hadoop.tmp.dir</name>
-		<value>/data1/ngp/hadoop-data/tmp</value>
+		<value>your tmp dir</value>
 	</property>
 	
 	<property>
@@ -33,7 +33,7 @@
 	</property>
 	<property>
 		<name>ha.zookeeper.quorum</name>
-		<value>tzcdh100,tzcdh101,tzcdh102</value>
+		<value>ZOOKEEPERLISＴ</value>
 	</property>
 	<property>    
 	  <name>fs.trash.interval</name>    
