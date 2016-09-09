@@ -23,7 +23,7 @@
 <configuration>
     <property>
         <name>hbase.rootdir</name>
-        <value>hdfs://ngpdfsservice/hbase</value>
+        <value>hdfs://XXX/hbase</value>
     </property>
 
     <property>
@@ -33,7 +33,7 @@
 
     <property>
         <name>hbase.zookeeper.quorum</name>
-        <value>tzcdh101,tzcdh102,tzcdh100</value>
+        <value>ZOOKEEPERLIST</value>
     </property>
     
     <property>
